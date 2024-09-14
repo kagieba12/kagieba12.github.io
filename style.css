@@ -13,13 +13,15 @@ body{
     margin: 0px;
     padding: 8px;
     width: 16%;
+    display: inline-block;
+    align-items: center;
     text-shadow: 1px 1px 0px black,
     -1px 1px 0px black,
     1px -1px 0px black,
     -1px -1px 0px black;
 }
 p{
-    font-size: 0.9em;
+    font-size: 1em;
 }
 h1 {
     margin: 0px 150px;
@@ -37,10 +39,10 @@ ul {
 }
 
 body > header{
-    background-color: orange;
+    background-color: rgb(38, 159, 234);
     color: white;
     display: flex;
-    height: 12vh;
+    height: 14vh;
     align-items: center;
     justify-content:space-around;
 }
@@ -78,7 +80,7 @@ body> main article {
 }
 
 #main-content > div {
-    width: 70%;
+    width: 75%;
 }
 
 form {
@@ -86,25 +88,32 @@ form {
 }
 
 body > footer{
-    background-color: orange;
+    background-color: rgb(38, 159, 234);
     display: flex;
 }
 
 #footer-ul {
     display: flex;
     list-style: none; 
+    color: white;
     
 }
 
 #footer-ul > div > li {
     margin-left: 12px;
+    padding: 8px;
+    color: white
 }
 
 #footer-ul > div > li > a {
     color: white;
     text-decoration: none;
+    padding: 8px;
 }
 
 img{
-    border-radius: 100%;
+    border-radius: 10;
+    display: block;
+    margin: 0 auto;
+    padding: 8px;
 }
